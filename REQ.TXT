@@ -1,0 +1,31 @@
+node& expressjs backend
+selling a backend server  to a book distribution company inorder to maintain track of books details ,publishers details and authors details 
+using node,express,mongodb
+
+REQUIREMENTS:
+
+BOOK DETAILS:
+1.ISBN - string (unique)
+2.TITLE -string
+3.AUTHOR-array(multiple values)
+4.LANGUAGE- string
+5.PUBDATE -string
+6.NUMOF PAGE-number
+7.GENRE -array (multiple values)
+8.PUBLICATION- number
+
+AUTHOR DETAILS:
+1.ID -number (unique)
+2.NAME- string
+3.BOOKS- array (multiple values)
+
+PUBLICATION DETAILS:
+1.ID - number(unique)
+2.NAME - string
+3.BOOKS - array(multiple values)
+
+API REQUIRED:
+
+BOOK:
+
+Get:
